@@ -13,12 +13,26 @@ export default function Home() {
       </Head> 
       <Navbar />
 
-      <main >
-        <div className='flex justify-center items-center my-14'>
-          <div className='rounded-2xl bg-slate-700 '>
-            <div className=' text-5xl text-gradient-to-r from-purple-500 to-pink-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
+      <main className='my-16 rounded-xl'>
+        <div className='flex justify-center items-center my-4'>
+          <div className='rounded-2xl bg-slate-900 '>
+            <div className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
               Create A Room
 
+            </div>
+
+          </div>
+          </div>
+          <div className='flex justify-center items-center '>
+            OR
+          </div>
+
+
+
+        <div className='flex justify-center items-center my-4'>
+          <div className='rounded-2xl bg-slate-900 '>
+            <div className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
+            Join A Room
             </div>
 
           </div>
