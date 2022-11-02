@@ -16,10 +16,10 @@ export default function Home() {
       <main className='my-16 rounded-xl'>
         <div className='flex justify-center items-center my-4'>
           <div className='rounded-2xl bg-slate-900 '>
-            <div className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
+            <button className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
               Create Room
 
-            </div>
+            </button>
 
           </div>
           </div>
@@ -31,9 +31,9 @@ export default function Home() {
 
         <div className='flex justify-center items-center my-4'>
           <div className='rounded-2xl bg-slate-900 '>
-            <div className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
+            <button className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
             Join Room
-            </div>
+            </button>
 
           </div>
 
