@@ -20,14 +20,17 @@ export default function join() {
         </div>
         </div>
         </div>
-        <div className=" p-8 mx-8 right flex flex-col">
-        <input className="px-6 h-12 my-2  rounded-lg outline-blue-600 bg-slate-900 text-purple-500" type="text" placeholder="Room ID">
+        <div className=" p-4 mx-8 right flex flex-col">
+        <input className="px-8 h-12 my-2  rounded-lg outline-blue-600 bg-slate-900 text-purple-500" type="text" placeholder="Room ID">
     </input>
     </div>
-
-
-
-
+    <div className='flex justify-center items-center my-3 mx-6'>
+    <div className='rounded-2xl bg-slate-900'>
+        <button className=' text-2xl my-3 mx-8 cursor-pointer font-bold'>
+            Join
+            </button>
+            </div>
+            </div>
 
     </main>
     </div>
