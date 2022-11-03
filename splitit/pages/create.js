@@ -7,9 +7,11 @@ import Footer from '../components/Footer'
 
 
 export default function create() {
-  return (
+    return (
     <>
     <Navbar />
+    <div className='flex justify-center items-center'>
+        <main className='my-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 '>
 
 
 
@@ -17,6 +19,12 @@ export default function create() {
 
 
 
+
+
+
+
+        </main>
+        </div>
 
     <Footer />
     </>

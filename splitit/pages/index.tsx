@@ -17,10 +17,12 @@ export default function Home() {
       <main className='my-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 '>
         <div className='flex justify-center items-center my-8 mx-6'>
           <div className='rounded-2xl bg-slate-900 '>
-            <button className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
+          <Link href={'create'}>
+            <div className=' text-4xl text-purple-500 cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-2 rounded-3xl font-bold my-4 mx-10'>
               Create Room
 
-            </button>
+            </div>
+            </Link>
 
           </div>
           </div>
