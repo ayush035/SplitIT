@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           </div>
           <div className='flex justify-center items-center '>
-            OR
+          OR
           </div>
 
 
