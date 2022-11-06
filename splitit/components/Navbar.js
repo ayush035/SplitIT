@@ -2,9 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { ConnectWallet } from "@thirdweb-dev/react";
+
+
 
 export default function Navbar() {
   return (
+    <>
 <div className='flex justify-center items-center my-4'>
     <nav className='flex justify-between h-12 font-white bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl'>
       <Link href={'/'}>
@@ -17,12 +21,16 @@ export default function Navbar() {
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>My Room</li>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Transactions</li>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Settings</li>
-
         </ul>
     </nav>
 
+   
+
+</div>
+<div className='flex justify-end items-end mx-3 my-0'>
+  <ConnectWallet/>
 </div>
 
-
+</>
   )
 }
