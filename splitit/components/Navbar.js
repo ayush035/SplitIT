@@ -22,16 +22,12 @@ export default function Navbar() {
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>My Room</li>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Transactions</li>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Settings</li>
-  < ConnectWallet />
-
+    < ConnectWallet />
         </ul>
+        
     </nav>
-
-   
-
 </div>
-<div className='flex justify-end items-end mx-3 my-0'>
-</div>
+
 
 </>
   )
