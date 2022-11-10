@@ -11,7 +11,7 @@ export default function createdroom() {
     <>
     <Navbar />
     <div className='flex'>
-   <main className='my-16 mx-8 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 text-purple-500 '>
+   <main className='my-16 mx-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 text-purple-500 '>
         <div className='flex justify-center items-center my-6 mx-12 '>
         <div className='rounded-2xl bg-slate-900 '>
 
