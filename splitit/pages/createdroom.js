@@ -3,13 +3,15 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-
+import Add from '../components/Add'
 
 
 
 export default function createdroom() {
 return (
 <>
+
+
 <Navbar />
 <div className='flex'>
 <main className='my-16 mx-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 text-purple-500 '>
@@ -28,7 +30,7 @@ Add Group Members
         placeholder="Member 2's  Wallet Address" />
         <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" 
         placeholder="Member 3's  Wallet Address" />
-        <button className='bg-slate-900 text-purple-500 items-center justify-center h-12 my-2 rounded-lg text-xl font-bold hover:bg-slate-800'>
+        <button className='bg-slate-900 text-purple-500 items-center justify-center h-12 my-2 rounded-lg text-xl font-bold hover:bg-slate-800'  onClick={Add}>
 Add Member +
         </button>
 </div>
