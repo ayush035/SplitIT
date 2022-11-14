@@ -8,6 +8,8 @@ import Add from '../components/Add'
 
 
 export default function createdroom() {
+
+        const member = () => {Add}
 return (
 <>
 
@@ -30,7 +32,7 @@ Add Group Members
         placeholder="Member 2's  Wallet Address" />
         <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" 
         placeholder="Member 3's  Wallet Address" />
-        <button className='bg-slate-900 text-purple-500 items-center justify-center h-12 my-2 rounded-lg text-xl font-bold hover:bg-slate-800'  onClick={Add}>
+        <button className='bg-slate-900 text-purple-500 items-center justify-center h-12 my-2 rounded-lg text-xl font-bold hover:bg-slate-800' onClick={member} >
 Add Member +
         </button>
 </div>
