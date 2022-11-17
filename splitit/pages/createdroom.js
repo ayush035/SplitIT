@@ -48,7 +48,7 @@ Add Member +
 <div className="flex flex-col my-24 mx-36 justify-center">
 <Image
           src={group}
-          alt=''
+        alt=''
         width="800px"
         height="800px">
 
