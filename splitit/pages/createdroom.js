@@ -50,7 +50,7 @@ Add Member +
           src={group}
           alt=''
             width="800px"
-            height="800px">
+        height="800px">
 
         </Image></div>
 
