@@ -49,7 +49,7 @@ Add Member +
 <Image
           src={group}
           alt=''
-            width="800px"
+        width="800px"
         height="800px">
 
         </Image></div>
