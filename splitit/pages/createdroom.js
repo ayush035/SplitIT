@@ -52,7 +52,7 @@ Add Member +
             width="800px"
             height="800px">
 
-            </Image></div>
+        </Image></div>
 
 </div>
 </main>
