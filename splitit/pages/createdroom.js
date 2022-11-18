@@ -58,7 +58,7 @@ Add Member +
 </div>
 </main>
 </div>
-    {/* <Footer /> */}
+
 </>
 )
 }
