@@ -26,7 +26,7 @@ export default function Home() {
 
           </div>
           </div>
-          <div className='flex justify-center items-center '>
+          <div className='flex justify-center items-center font-bold '>
           OR
           </div>
 
