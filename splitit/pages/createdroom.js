@@ -16,7 +16,7 @@ return (
 
 <Navbar />
 <div className='flex'>
-        <main>
+<main>
 <div className='grid grid-cols-2'>
 <div className='my-16 mx-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 text-purple-500 '>
         <div className='flex justify-center items-center my-6 mx-10 '>
@@ -26,24 +26,13 @@ Add Group Members
         </div>
         </div>
         </div>
-        <div className=" flex flex-col   rounded-xl  mx-8 my-6 p-4 ">
-        <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" 
-        placeholder="Member 1's  Wallet Address" />
-<input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" 
-        placeholder="Member 2's  Wallet Address" />
-        <input className="px-4 h-12 my-2 border border-1 border-gray-600 rounded-lg outline-blue-600 bg-white text-black" type="text" 
-        placeholder="Member 3's  Wallet Address" />
-        <button className='bg-slate-900 text-purple-500 items-center justify-center h-12 my-2 rounded-lg text-xl font-bold hover:bg-slate-800' onClick={member} >
-Add Member +
-        </button>
-</div>
-<div className='flex justify-center items-center my-5 mx-6'>
-        <div className='rounded-xl bg-slate-900 hover:bg-slate-800'>
-        <div className=' text-2xl my-3 mx-8 cursor-pointer font-bold '>
-        Mint Invitation
+
+        <div className='flex  justify-end items-end'></div>
+        <div className=' text-xl my-24 mx-8 cursor-pointer font-bold text-white'>
+                Share This Room code to add members
+
         </div>
-        </div>
-        </div>
+
 </div>
 <div className="flex flex-col my-24 mx-36 justify-center">
 <Image
@@ -54,6 +43,7 @@ Add Member +
 
         </Image>
         </div>
+        
 
 </div>
 </main>
