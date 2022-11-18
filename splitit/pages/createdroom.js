@@ -12,10 +12,10 @@ return (
 
 
 <Navbar />
-<div className='flex'>
+<div className='flex justify-center items-center'>
 <main>
 <div className='grid grid-cols-2'>
-<div className='my-16 mx-16 '>
+<div className='my-16 mx-16'>
         <div className='rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 text-purple-500 '>
         <div className='flex justify-center items-center my-6 mx-10 '>
         <div className='rounded-2xl bg-slate-900 my-4 '>
