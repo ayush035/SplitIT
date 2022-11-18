@@ -18,7 +18,10 @@ export default function Navbar() {
         </span>
         </Link>
         <ul className= 'px-2 py-3 flex space-x-9 mx-4'>
+      <Link href={'/'}>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Home</li>
+        </Link>
+
             <Link href={'/myrooms'}>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>My Rooms</li>
             </Link>
