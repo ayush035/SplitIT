@@ -13,6 +13,11 @@ export default function create() {
     <Navbar />
 
 
+    <div className='flex justify-center items-center' >
+<div className=' font-bold text-3xl text-white my-24'>
+You have no Transactions Yet ! 💔
+</div>
+</div>
 
 
 
@@ -20,7 +25,6 @@ export default function create() {
 
 
 
-    
     </>
     )
     
