@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-// import { ConnectWallet } from "@thirdweb-dev/react";
-import ConnectWallet from '../components/ConnectWallet'
+
 
 
 
@@ -29,7 +28,6 @@ export default function Navbar() {
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Transactions</li>
             </Link>
             {/* <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Settings</li> */}
-    < ConnectWallet />
         </ul>  
     </nav>
 </div>
