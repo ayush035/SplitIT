@@ -44,7 +44,7 @@ export default function create() {
 
         <div className='flex justify-center items-center my-5 mx-6'>
         <div className='rounded-2xl bg-slate-900'>
-        <div className=' text-2xl my-3 mx-8 cursor-pointer font-bold'>
+        <div className=' text-2xl my-3 mx-8 cursor-pointer font-bold hover:text-white'>
             Create
             </div>
             </div>
