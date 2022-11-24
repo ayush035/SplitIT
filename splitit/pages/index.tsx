@@ -7,13 +7,13 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div className=''>
       <Head>
     <title>SplitIT</title>
       
       </Head> 
       <Navbar />
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center '>
       <main className='my-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 '>
         <div className='flex justify-center items-center my-8 mx-6'>
           <div className='rounded-2xl bg-slate-900 '>

@@ -11,7 +11,7 @@ export default function create() {
     return (
     <>
     <Navbar />
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center '>
 
         <main className='my-16 rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 text-purple-500'>
         <div className='flex justify-center items-center my-6 mx-6'>
